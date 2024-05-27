@@ -29,6 +29,9 @@
   transition: 0.3s;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--main);
   font-family: "Work Sans", sans-serif;
