@@ -163,7 +163,7 @@ body {
 
 /* Image */
 .content {
-  background-image: url(/ASSETS/back.jpg);
+  background-image: url(ASSETS/back.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
