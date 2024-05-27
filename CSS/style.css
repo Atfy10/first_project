@@ -378,9 +378,6 @@ body {
   opacity: 1;
 }
 @media (max-width: 650px) {
-  .portfolio .container {
-    padding: 20px 120px;
-  }
   .portfolio .container .col .text {
     text-align: center;
   }
