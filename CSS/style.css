@@ -426,7 +426,7 @@ body {
 .about .container .sidetext {
   /* margin-left: 150px; */
   /* width: 45%; */
-  flex-basis: calc(100% - 650px);
+  flex-basis: calc(100% - 550px);
 }
 
 .about .container .sidetext p:first-child {
