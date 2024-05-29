@@ -29,6 +29,9 @@
   transition: 0.3s;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--main);
   font-family: "Work Sans", sans-serif;
@@ -50,7 +53,7 @@ body {
 /* large */
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1270px;
+    width: 1170px;
   }
 }
 .container {
@@ -160,7 +163,7 @@ body {
 
 /* Image */
 .content {
-  background-image: url(/ASSETS/back.jpg);
+  background-image: url(../ASSETS/back.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -375,9 +378,6 @@ body {
   opacity: 1;
 }
 @media (max-width: 650px) {
-  .portfolio .container {
-    padding: 20px 120px;
-  }
   .portfolio .container .col .text {
     text-align: center;
   }
@@ -426,7 +426,7 @@ body {
 .about .container .sidetext {
   /* margin-left: 150px; */
   /* width: 45%; */
-  flex-basis: calc(100% - 650px);
+  flex-basis: calc(100% - 550px);
 }
 
 .about .container .sidetext p:first-child {
